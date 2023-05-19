@@ -1,0 +1,50 @@
+.Navbar {
+    position: sticky;
+    top: 0;
+    background-color: #fff; /* Adjust the background color as needed */
+    z-index: 100;
+    padding: 1.3em;
+   
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .dropdown-menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dropdown {
+    flex-direction: column;
+    list-style: none;
+    position: absolute;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+    white-space: nowrap;
+    position: relative;
+  }
+  .menu li:hover .dropdown {
+    display: block;
+  }
+  .dropdown li {
+    white-space: nowrap;
+  }
+  .dropdown li:not(:last-child) {
+    border-bottom: 1px solid #ccc; /* Add a border between dropdown items if desired */
+  }
+  .in{
+    display: inline;
+    padding-top: 1em;
+  }
+  .ins{
+    display: inline;
+  }
