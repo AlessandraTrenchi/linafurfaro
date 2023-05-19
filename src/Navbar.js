@@ -49,7 +49,7 @@ function Navbar() {
                 <button onClick={toggleDropdown}>HOME</button>
                 {isOpen && (
                 <ul className='dropdown'>
-                    <li a href="./eventi.html">EVENTI</li>
+                    <li a href="../src/eventi.html">EVENTI</li>
                     <li a href="./eventipassati.html">EVENTI PASSATI</li>
                     <li a href="./riconoscimenti.html">RICONOSCIMENTI</li>
                     </ul>
