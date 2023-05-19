@@ -1,26 +1,40 @@
+@font-face {
+    font-family: 'Text';
+    src: url(https://fonts.adobe.com/fonts/loretta-variable);
+  }
+  @font-face {
+    font-family: 'Title';
+    src: url(https://fonts.adobe.com/fonts/mikrobe-variable);
+  }
 .Navbar {
     position: sticky;
-    top: 0;
-    background-color: #fff; /* Adjust the background color as needed */
+    top: 0; /* Adjust the background color as needed */
     z-index: 100;
-    padding: 1.3em;
-   
+    color:#F7F4F3;
+    background-color: #5B2333;
+
   }
   
   .menu {
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
+    padding: 4em;
     list-style: none;
+    font-family: 'Text';
+    background-color: #5B2333;
+    position: sticky;
+    margin: 0;
   }
   
   .dropdown-menu {
     list-style: none;
     padding: 0;
+    display: inline-flex;
   }
   
   .dropdown {
+    display: none;
     flex-direction: column;
     list-style: none;
     position: absolute;
@@ -35,16 +49,54 @@
   .menu li:hover .dropdown {
     display: block;
   }
+
   .dropdown li {
-    white-space: nowrap;
+    border: 1px solid #F24333; /* Add a border between dropdown items if desired */
+    background-color: #5B2333;
   }
-  .dropdown li:not(:last-child) {
-    border-bottom: 1px solid #ccc; /* Add a border between dropdown items if desired */
-  }
-  .in{
+
+  .inx{
     display: inline;
-    padding-top: 1em;
+    font-size: 2em;
+    font-family: 'Title';
   }
   .ins{
     display: inline;
+  }
+  button{
+    background-color:#5B2333;
+    color:#F7F4F3;
+  }
+  .menu-toggle {
+    display: none;
+  }
+  
+  .menu-toggle-label {
+    cursor: pointer;
+    font-size: 1.5em;
+    margin-right: 10px;
+    user-select: none;
+  }
+  
+  li a{
+    color:#F7F4F3;
+    text-decoration: none;
+
+  }
+  @media (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+    }
+  
+    .menu li {
+      margin-bottom: 1em;
+    }
+  
+    .dropdown {
+      display: none;
+    }
+  
+    .menu li:hover .dropdown {
+      display: block;
+    }
   }
