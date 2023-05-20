@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App';
 import './Navbar.css';
 
+
 function Navbar() {
   const author = "Lina Furfaro";
   const [isOpen, setIsOpen] = useState(false);
@@ -92,5 +93,7 @@ function Navbar() {
     </nav>
   );
 }
+
+
 
 export default Navbar;

@@ -1,0 +1,11 @@
+.stats{
+    color: #ba1b1d ;
+    background-color: #f7f4f3;
+    justify-self: center;
+    border: 1px solid #5b2333;
+    text-align: center;
+    width: 27%;
+}
+.stat{
+    font-size: 1.3em;
+}

@@ -86,8 +86,13 @@
     color:#F7F4F3;
     text-decoration: none;
   }
-
-
+  input{
+    background-color: #F7F4F3;
+    padding: 1em;
+    color:#5B2333;
+    border: 1px solid #564D4A;
+    box-sizing: border-box;
+  }
 
   @media (max-width: 768px) {
     .menu {
