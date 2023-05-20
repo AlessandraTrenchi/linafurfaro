@@ -4,7 +4,7 @@ import './index.css';
 import Navbar from './Navbar';
 import WebsiteVisitsCounter from './WebsiteVisitsCounter';
 import './App.css';
-import Autrice from'./Autrice';
+import Autrice from './Autrice';
 
 function App() {
   const proPic = <img src="https://pbs.twimg.com/profile_images/768896426038423552/nGiJamXP_400x400.jpg" alt="Profile Picture" className='imm'></img>;

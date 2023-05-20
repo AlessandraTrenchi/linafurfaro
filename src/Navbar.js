@@ -38,7 +38,7 @@ function Navbar() {
   return (
     <nav className='Navbar'>
       <ul className='menu'>
-          <li className="inx"><a href="index.html">{author}</a></li>
+          <h2><a href="index.html" className="inx">{author}</a></h2>
           <li>
             <button onClick={toggleDropdown}>HOME</button>
             {isOpen && (
