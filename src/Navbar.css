@@ -23,7 +23,10 @@
   ::-webkit-scrollbar-thumb {
     background: #001d3d;
   }
-  
+  li a{
+    color:#F7F4F3;
+    text-decoration: none;
+  }
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #001d3d;
@@ -70,7 +73,6 @@
     border-style: outset;
     border-color: buttonborder #ffc300;
     border-image: initial;
-    color:white;
   }
   .menu li:hover .dropdown {
     display: block;
@@ -83,10 +85,10 @@
     border-image: initial;/* Add a border between dropdown items if desired */
     background-color: #001d3d;
   }
-.dropdown:hover, button:hover, .li a:hover, .in:hover{
+.dropdown:hover, button:hover, .li a:hover, .in:hover, li .in a:hover, .dropdown li:hover, .dropdown:focus, button:focus, .li a:focus, .in:focus, li .in a:focus, .dropdown li:focus{
   color: #001d3d !important;;
   background-color: #ffc300;
-  border-color: buttonborder #001d3d;
+  
 }
   .inx{
     display: inline;
@@ -118,10 +120,7 @@
     user-select: none;
   }
   
-  li a{
-    color:#F7F4F3;
-    text-decoration: none;
-  }
+ 
   input{
     background-color: #ffc300;
     padding: 1em;

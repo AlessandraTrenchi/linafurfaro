@@ -5,7 +5,7 @@ import React from 'react';
 function WebsiteVisitsCounter({ startingCount, todayVisits, last30DaysVisits }) {
   const totalVisits = startingCount + todayVisits + last30DaysVisits;
   return (
-    <div>
+    <div className='visite'>
         
         
         <h2>Statistiche sito</h2>
