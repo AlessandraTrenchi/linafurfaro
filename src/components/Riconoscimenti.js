@@ -1,8 +1,9 @@
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 import React from "react";
 import { ReactDOM } from "react";
+import WebsiteVisitsCounter from "./WebsiteVisitsCounter";
 
-function Teatro (){
+function Riconoscimenti (){
     const proPic = <img src="https://pbs.twimg.com/profile_images/768896426038423552/nGiJamXP_400x400.jpg" alt="Profile Picture" className='imm'></img>;
     return(
         <>
@@ -22,6 +23,6 @@ function Teatro (){
 
 
 
-ReactDOM.render(<Teatro/>, document.getElementById("root"));
+ReactDOM.render(<Riconoscimenti/>, document.getElementById("root"));
 
-export default Teatro;
+export default Riconoscimenti;

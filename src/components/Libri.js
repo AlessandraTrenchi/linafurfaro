@@ -1,7 +1,9 @@
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 import React from "react";
 import { ReactDOM } from "react";
-function Articoli (){
+import WebsiteVisitsCounter from "./WebsiteVisitsCounter";
+
+function Libri (){
     const proPic = <img src="https://pbs.twimg.com/profile_images/768896426038423552/nGiJamXP_400x400.jpg" alt="Profile Picture" className='imm'></img>;
     return(
         <>
@@ -21,6 +23,6 @@ function Articoli (){
 
 
 
-ReactDOM.render(<Articoli/>, document.getElementById("root"));
+ReactDOM.render(<Libri/>, document.getElementById("root"));
 
-export default Articoli;
+export default Libri;

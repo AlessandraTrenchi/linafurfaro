@@ -1,8 +1,7 @@
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 import React from "react";
 import { ReactDOM } from "react";
-
-function Riconoscimenti (){
+function Articoli (){
     const proPic = <img src="https://pbs.twimg.com/profile_images/768896426038423552/nGiJamXP_400x400.jpg" alt="Profile Picture" className='imm'></img>;
     return(
         <>
@@ -22,6 +21,6 @@ function Riconoscimenti (){
 
 
 
-ReactDOM.render(<Riconoscimenti/>, document.getElementById("root"));
+ReactDOM.render(<Articoli/>, document.getElementById("root"));
 
-export default Riconoscimenti;
+export default Articoli;
